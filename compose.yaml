@@ -1,0 +1,7 @@
+﻿services:
+  csu_english:
+    image: csu_english
+    build:
+      context: .
+      dockerfile: CSU_English/Dockerfile
+
